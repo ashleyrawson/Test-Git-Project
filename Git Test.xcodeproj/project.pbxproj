@@ -15,6 +15,7 @@
 		0534346219D894BF00DE0C8D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0534346119D894BF00DE0C8D /* Images.xcassets */; };
 		0534346519D894BF00DE0C8D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0534346319D894BF00DE0C8D /* LaunchScreen.xib */; };
 		0534347119D894C000DE0C8D /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0534347019D894C000DE0C8D /* Git_TestTests.m */; };
+		0534347C19D8971D00DE0C8D /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 0534347B19D8971D00DE0C8D /* Test.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,8 @@
 		0534346A19D894C000DE0C8D /* Git TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Git TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0534346F19D894C000DE0C8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0534347019D894C000DE0C8D /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		0534347A19D8971D00DE0C8D /* Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Test.h; path = ../Test.h; sourceTree = "<group>"; };
+		0534347B19D8971D00DE0C8D /* Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Test.m; path = ../Test.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,8 @@
 		0534345019D894BF00DE0C8D /* Git Test */ = {
 			isa = PBXGroup;
 			children = (
+				0534347A19D8971D00DE0C8D /* Test.h */,
+				0534347B19D8971D00DE0C8D /* Test.m */,
 				0534345519D894BF00DE0C8D /* AppDelegate.h */,
 				0534345619D894BF00DE0C8D /* AppDelegate.m */,
 				0534345B19D894BF00DE0C8D /* ViewController.h */,
@@ -222,6 +227,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0534347C19D8971D00DE0C8D /* Test.m in Sources */,
 				0534345719D894BF00DE0C8D /* AppDelegate.m in Sources */,
 				0534345419D894BF00DE0C8D /* main.m in Sources */,
 				0534345D19D894BF00DE0C8D /* ViewController.m in Sources */,
